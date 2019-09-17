@@ -4,7 +4,8 @@
 ## Install dependencies
 The compressed function file will need all its dependencies so all install them in a folder called package.
 ```
-$ pip install --target ./src/package -r requirements.txt
+$ cd src
+$ pip install --target ./package -r requirements.txt
 ```
 #### IMPORTANT NOTE
 Make sure you do not import your dependencies from the package folder in your python script (~~`import package.mypippackage`~~), once packaged this python file will be at the same folder level as your dependencies, use `import mypippackage` instead
