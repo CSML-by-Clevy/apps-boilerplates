@@ -17,3 +17,7 @@ $ zip function.zip main
 
 #### IMPORTANT NOTE
 For Go, the handler has to be called `main`
+
+
+#### Use in CSML
+<img src="./images/img.png">
