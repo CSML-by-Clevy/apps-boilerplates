@@ -27,7 +27,7 @@ func HandleRequest(event MyEvent) (string, error) {
 	url := fmt.Sprintf("https://randomfox.ca/%s", event.Floof)
 	resp, errCall := http.Get(url)
 	if errCall != nil {
-		return "error form api", nil
+		return "error from api", nil
 	}
 
 	defer resp.Body.Close()
@@ -36,7 +36,7 @@ func HandleRequest(event MyEvent) (string, error) {
 	var v response
 	err := json.Unmarshal(body, &v)
 	if err != nil {
-		return "format error form api", nil
+		return "format error from api", nil
 	}
 
 	return v.Image, nil

@@ -1,4 +1,4 @@
-# Python lambda function boilerplate
+# Node.js lambda function boilerplate
 
 
 ## Install dependencies
