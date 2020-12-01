@@ -2,3 +2,6 @@
 # Ruby
 ruby/.bundle/
 ruby/vendor/bundle
+# Java
+java/.gradle
+java/build
